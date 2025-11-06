@@ -63,6 +63,15 @@ ___“A linux distro from an AI developer”___
 
 ---
 
+# Other Files
+
+- **[Security](SECURITY.md)**-WilderedOS is super safe, with weekly security patches.
+- **[License](LICENSE)**-WilderedOS is licensed under the Apache 2.0 License.
+- **[Code Of Conduct](CODE_OF_CONDUCT.md)**-WilderedOS uses Contributor Covenant format of Code Of Conduct, making it open-source.
+- **[Contribution](CONTRIBUTING.md)**-See how you can contribute by helping WilderedOS improve its experience.
+- **[Installation Guide](INSTALLATION.md)**-Know how to install WilderedOS quickly.
+- **[Requirements](REQUIREMENTS.md)**-Learn about what do you need to get the best out of WilderedOS.
+
 **The main part is that there are yet so many features to discover.”**
 
 ---
