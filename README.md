@@ -71,6 +71,7 @@ ___“A linux distro from an AI developer”___
 - **[Contribution](CONTRIBUTING.md)**-See how you can contribute by helping WilderedOS improve its experience.
 - **[Installation Guide](INSTALLATION.md)**-Know how to install WilderedOS quickly.
 - **[Requirements](REQUIREMENTS.md)**-Learn about what do you need to get the best out of WilderedOS.
+- **[ASCII Art](ASCII.md)**-The ASCII art peice that will be used for WilderedOS.
 
 **The main part is that there are yet so many features to discover.”**
 
