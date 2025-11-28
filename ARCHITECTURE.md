@@ -159,21 +159,24 @@ The sidebar runs as a continuous loop in bash or python, updating at configurabl
 
 ### Color Scheme and Theming
 
-**Liquid Glass Aesthetic:**
-The signature "liquid glass" feel is achieved through careful color palette selection and terminal transparency settings.
+**Dynamic Theme System:**
+WilderedOS uses a centralized theming system where colors are defined in external theme configuration files rather than hardcoded in components. This allows for easy customization, theme switching, and community-contributed themes.
 
-**Default Color Palette:**
-- Background: Semi-transparent with blur (when supported)
-- Primary text: Cool white (#E0E0E0)
-- Accent colors: Soft blues and cyans (#5DADE2, #48C9B0)
-- Warning colors: Amber (#F39C12)
-- Error colors: Soft red (#E74C3C)
-- Success colors: Mint green (#52BE80)
+**Theme Architecture:**
+All colors are loaded from theme files located in `/opt/wilderedos/share/themes/` with user customizations in `~/.config/wilderedos/`. The system supports live theme switching without requiring application restarts.
 
-The palette draws inspiration from modern design systems while ensuring excellent readability and WCAG contrast compliance.
+**Default Theme (Liquid Glass):**
+The signature "liquid glass" aesthetic comes from the default theme featuring semi-transparent backgrounds, cool blue and cyan accents, and carefully balanced contrast ratios. However, users can switch to any theme instantly.
+
+**See [THEMING.md](THEMING.md) for complete theming system documentation**, including:
+- How to create custom themes
+- Available default themes (Liquid Glass, Nord, Dracula, Gruvbox, etc.)
+- Live theme switching commands
+- Community theme repository
+- Accessibility and colorblind modes
 
 **Terminal Transparency:**
-Transparency levels are configurable per edition. Base Edition defaults to opaque for maximum compatibility and readability on any background. Standard Edition uses 10-15% transparency with blur for the liquid glass effect. Users can adjust transparency through configuration files or settings TUI.
+Transparency levels are defined per-theme and configurable. Themes specify transparency percentages (0-100%) and blur settings. Users can override transparency through theme configuration or the settings TUI.
 
 ### Keyboard-Driven Interface
 
@@ -500,14 +503,4 @@ deb https://packages.wilderedos.org/ubuntu/ jammy universe
 ```
 
 **Custom Packages:**
-- wilderedos-base (core WilderedOS components)
-- wilderedos-sidebar (sidebar companion)
-- wilderedos-storage (Smart Storage system)
-- wilderedos-themes (color schemes and fonts)
-- wilderedos-apps-minimal (Base edition application set)
-- wilderedos-apps-standard (Standard edition additions)
-- wilderedos-apps-full (Full preset applications)
-
-### Edition Meta-Packages
-
-Each edition is defined by a meta-pac
+- wilderedo
