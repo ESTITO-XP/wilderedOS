@@ -1,0 +1,78 @@
+# WilderedOS Base Edition Package List
+# Minimal packages for terminal-based system
+
+# Shell and terminal
+bash
+bash-completion
+tmux
+screen
+
+# Terminal emulators
+fbterm
+
+# Text editors
+nano
+vim-tiny
+
+# File management
+ranger
+mc
+tree
+file
+
+# System utilities
+htop
+ncdu
+lsof
+strace
+
+# Network tools
+curl
+wget
+net-tools
+iproute2
+iputils-ping
+dnsutils
+
+# Archive tools
+zip
+unzip
+tar
+gzip
+bzip2
+xz-utils
+
+# Terminal web browser
+w3m
+w3m-img
+lynx
+
+# File finding and searching
+fzf
+ripgrep
+fd-find
+
+# System information
+neofetch
+inxi
+
+# Version control
+git
+
+# Python (for scripts)
+python3
+python3-pip
+
+# Compression
+zstd
+pigz
+
+# Terminal multiplexer utilities
+tmux
+byobu
+
+# Additional utilities
+bc
+jq
+tree
+pv
