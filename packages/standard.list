@@ -1,0 +1,163 @@
+# WilderedOS Standard Edition Package List
+# Includes all base packages plus enhanced tools
+
+# === BASE PACKAGES (inherited) ===
+# See base.list for core packages
+
+# === ADDITIONAL SHELLS ===
+zsh
+zsh-autosuggestions
+zsh-syntax-highlighting
+
+# === ENHANCED TEXT EDITORS ===
+neovim
+emacs-nox
+
+# === ENHANCED FILE MANAGERS ===
+nnn
+vifm
+
+# === TERMINAL MULTIPLEXER ENHANCEMENTS ===
+tmux-plugin-manager
+byobu
+
+# === ENHANCED SEARCH TOOLS ===
+silversearcher-ag
+ack
+
+# === SYSTEM MONITORING ===
+glances
+iotop
+nethogs
+iftop
+
+# === DISK USAGE ===
+duf
+dust
+
+# === PROCESS MANAGEMENT ===
+atop
+
+# === NETWORK TOOLS (enhanced) ===
+nmap
+netcat-openbsd
+socat
+iperf3
+mtr
+
+# === FILE SYNC ===
+rsync
+rclone
+
+# === TERMINAL BROWSERS (enhanced) ===
+elinks
+
+# === DOCUMENT VIEWERS ===
+pandoc
+chafa
+
+# === DOWNLOAD TOOLS ===
+aria2
+youtube-dl
+
+# === ARCHIVE TOOLS (additional) ===
+p7zip-full
+rar
+unrar
+
+# === VERSION CONTROL ===
+git-extras
+tig
+
+# === DEVELOPMENT TOOLS ===
+build-essential
+gdb
+strace
+ltrace
+
+# === SCRIPTING ===
+python3-venv
+python3-dev
+lua5.4
+
+# === TEXT PROCESSING ===
+sed
+awk
+grep
+jq
+yq
+
+# === DATABASE CLI ===
+sqlite3
+
+# === TERMINAL UTILITIES ===
+bat
+exa
+fd-find
+ripgrep
+fzf
+
+# === CLIPBOARD ===
+xclip
+xsel
+
+# === CALENDAR & TIME ===
+calcurse
+remind
+
+# === SYSTEM INFO ===
+screenfetch
+landscape-common
+
+# === BENCHMARKING ===
+sysbench
+stress
+
+# === TERMINAL RECORDING ===
+asciinema
+
+# === COLOR TOOLS ===
+colordiff
+grc
+
+# === JSON/YAML ===
+jq
+yq
+
+# === MARKDOWN ===
+glow
+
+# === NOTE TAKING ===
+vimwiki
+
+# === TASK MANAGEMENT ===
+taskwarrior
+
+# === EMAIL (CLI) ===
+mutt
+neomutt
+
+# === IRC CLIENT ===
+irssi
+weechat
+
+# === MUSIC PLAYER ===
+cmus
+moc
+
+# === FILE TRANSFER ===
+scp
+sftp
+ncftp
+
+# === SECURITY ===
+gpg
+pass
+
+# === CONTAINERS (optional) ===
+podman
+
+# === FONTS ===
+fonts-powerline
+fonts-firacode
+fonts-jetbrains-mono
