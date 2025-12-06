@@ -1,0 +1,364 @@
+# WilderedOS Full Edition Package List
+# Complete installation with all presets
+
+# === TEST PACKAGES (inherited) ===
+# See test.list for standard + wine packages
+
+# ==========================================
+# DEVELOPMENT PRESET
+# ==========================================
+
+# Compilers and build tools
+build-essential
+gcc
+g++
+gfortran
+clang
+cmake
+make
+automake
+autoconf
+libtool
+ninja-build
+meson
+
+# Version control
+git
+git-lfs
+mercurial
+subversion
+
+# Debuggers
+gdb
+lldb
+valgrind
+
+# Languages
+python3-full
+python3-pip
+python3-venv
+python3-dev
+nodejs
+npm
+ruby
+ruby-dev
+perl
+lua5.4
+golang-go
+rust-all
+openjdk-17-jdk
+php-cli
+
+# IDEs/Editors
+neovim
+emacs-nox
+vim-gtk3
+
+# Development utilities
+ctags
+cscope
+clang-format
+clang-tidy
+shellcheck
+pylint
+eslint
+prettier
+
+# Documentation
+doxygen
+graphviz
+pandoc
+
+# ==========================================
+# MULTIMEDIA PRESET
+# ==========================================
+
+# Video players
+mpv
+vlc-nox
+
+# Audio players
+cmus
+moc
+mpd
+ncmpcpp
+
+# Media manipulation
+ffmpeg
+imagemagick
+sox
+
+# Image viewers/converters
+feh
+chafa
+jp2a
+libsixel-bin
+
+# Audio editing
+audacity
+
+# Video editing
+kdenlive
+
+# Screen recording
+asciinema
+ttyrec
+
+# ==========================================
+# PRODUCTIVITY PRESET
+# ==========================================
+
+# Spreadsheets
+sc-im
+
+# Documents
+pandoc
+groff
+texlive-base
+texlive-latex-base
+texlive-latex-extra
+
+# Presentations
+mdp
+
+# Note taking
+vimwiki
+taskwarrior
+timewarrior
+
+# Calendar
+calcurse
+remind
+when
+
+# Email
+mutt
+neomutt
+alpine
+
+# RSS reader
+newsboat
+
+# ==========================================
+# NETWORKING PRESET
+# ==========================================
+
+# Network analysis
+nmap
+wireshark-cli
+tshark
+tcpdump
+etherape
+iftop
+nethogs
+iptraf-ng
+
+# Network utilities
+netcat-openbsd
+socat
+nc
+telnet
+ftp
+lftp
+ncftp
+
+# Download tools
+wget
+curl
+aria2
+youtube-dl
+axel
+
+# Torrent
+transmission-cli
+rtorrent
+
+# VPN
+openvpn
+wireguard
+
+# SSH tools
+openssh-server
+openssh-client
+sshfs
+autossh
+mosh
+
+# Web servers (for development)
+nginx-light
+apache2-utils
+
+# Network monitoring
+vnstat
+bmon
+slurm
+
+# DNS tools
+bind9-dnsutils
+dnsmasq
+
+# Performance testing
+iperf3
+speedtest-cli
+
+# ==========================================
+# GAMING PRESET
+# ==========================================
+
+# Emulators
+dosbox
+scummvm
+residualvm
+
+# Game engines
+love
+
+# Steam (for compatibility)
+steam-installer
+
+# Lutris dependencies
+python3-yaml
+python3-requests
+
+# ==========================================
+# SYSTEM ADMINISTRATION
+# ==========================================
+
+# Monitoring
+htop
+btop
+glances
+atop
+iotop
+powertop
+s-tui
+
+# Disk tools
+gparted
+testdisk
+smartmontools
+hdparm
+sdparm
+
+# Backup
+rsync
+rclone
+restic
+borgbackup
+
+# Containers
+podman
+buildah
+docker.io
+
+# Virtualization
+qemu-system-x86
+virt-manager-common
+
+# ==========================================
+# SECURITY & CRYPTOGRAPHY
+# ==========================================
+
+# Encryption
+gpg
+gpg-agent
+pinentry-curses
+
+# Password management
+pass
+gopass
+
+# Security tools
+nmap
+john
+hashcat
+aircrack-ng
+
+# Firewalls
+ufw
+iptables
+fail2ban
+
+# ==========================================
+# DATABASES
+# ==========================================
+sqlite3
+postgresql-client
+mysql-client
+redis-tools
+mongodb-clients
+
+# ==========================================
+# FONTS & THEMES
+# ==========================================
+fonts-powerline
+fonts-firacode
+fonts-jetbrains-mono
+fonts-cascadia-code
+fonts-hack
+fonts-noto
+fonts-liberation
+fonts-dejavu
+
+# ==========================================
+# DOCUMENTATION
+# ==========================================
+man-db
+manpages
+manpages-dev
+manpages-posix
+manpages-posix-dev
+info
+tldr
+
+# ==========================================
+# MISCELLANEOUS
+# ==========================================
+
+# File management
+mc
+ranger
+nnn
+vifm
+lf
+
+# Compression
+zip
+unzip
+p7zip-full
+rar
+unrar
+lzip
+lzop
+arj
+
+# Benchmarking
+sysbench
+stress
+stress-ng
+bonnie++
+
+# Terminal enhancements
+tmux
+screen
+byobu
+zellij
+
+# Terminal multiplexer plugins
+tmux-plugin-manager
+
+# Color schemes
+base16
+
+# ASCII art
+figlet
+toilet
+cowsay
+fortune-mod
+lolcat
+
+# Fun
+sl
+cmatrix
+cbonsai
+asciiquarium
