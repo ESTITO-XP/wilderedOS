@@ -400,6 +400,13 @@ main() {
     configure_network
     configure_services
     apply_overlay
+    
+    # Install fonts
+    if [[ -f "$SCRIPT_DIR/scripts/install-fonts.sh" ]]; then
+        log "Installing WilderedOS fonts..."
+        "$SCRIPT_DIR/scripts/install-fonts.sh"
+    fi
+    
     cleanup_customize
     
     log_success "Customization phase complete!"
